@@ -24,7 +24,7 @@ echo "=== [3/10] Downloading and running official MISP installer ==="
 sudo -i -u misp bash << 'EOF'
 cd /tmp
 # Try Ubuntu 22.04 installer for compatibility
-wget --no-cache -O INSTALL.sh https://raw.githubusercontent.com/MISP/MISP/2.5/INSTALL/INSTALL.ubuntu2204.sh
+wget --no-cache -O INSTALL.sh https://raw.githubusercontent.com/MISP/MISP/2.5/INSTALL/INSTALL.ubuntu2404.sh
 chmod +x INSTALL.sh
 # Run with core only first
 sudo bash INSTALL.sh -c
