@@ -5,7 +5,7 @@
 # ============================================================
 
 # Your host IP
-MISP_HOST="172.25.33.9"
+MISP_HOST="172.25.33.11"
 ADMIN_EMAIL="admin@admin.test"
 ADMIN_PASSWORD="X@ntzs1842003"  # Please change this!
 
