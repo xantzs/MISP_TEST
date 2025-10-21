@@ -5,9 +5,9 @@
 # ============================================================
 
 # Your host IP
-MISP_HOST="172.25.33.11"
+MISP_HOST="x.x.x.x"
 ADMIN_EMAIL="admin@admin.test"
-ADMIN_PASSWORD="X@ntzs1842003"  # Please change this!
+ADMIN_PASSWORD="xxxxxxxxxx"  # Please change this!
 
 echo "=== [1/10] Updating system and installing prerequisites ==="
 sudo apt update && sudo apt upgrade -y
